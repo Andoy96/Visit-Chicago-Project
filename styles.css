@@ -1,0 +1,130 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0px;
+    text-align: center;
+    background-image: url("images/ChicagoSky.jpg");
+    background-size: 100%;
+    background-position: top;
+    background-repeat:no-repeat;
+    color: whitesmoke;
+}
+.background{
+    position: top;
+    margin-top: 300px;
+}
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: franklin;
+    padding-bottom: 80px;
+}
+.second-title {
+    text-shadow: 0px 3px  red;
+}
+    
+.main-title {
+    margin: 30px;
+    background:F1DCCA;
+    padding: 400px, 40px;
+    color: white;
+    font-family: franklin;
+    height: 30px;
+    text-shadow: 0px 3px  red;
+    font-size: 70px;
+}
+.subtitle {
+    margin: 70px 0 50px 0;
+    background: black;
+    padding: 4px 12px;
+    border-radius: 14px;
+    font-size: 18px;
+    height: 20px;
+    
+}
+#title {
+    color: white;
+    font-family: franklin;
+    font-size: 23px;
+    padding-top: 4px;
+    height: 40px;
+    text-shadow: 0px 3px black;
+}
+#activities {
+    width: auto;
+  background: black;
+  
+  
+}
+.activities-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    width: auto;
+    margin:auto;
+    padding: 50px 0px;
+    background:black;
+    color: white;
+}
+.activity {
+    width: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    font-size: 13px;
+}
+.activity-img {
+    display: inline-block;
+    border-radius: 50%; 
+    width: 150px;
+    height: 150px;
+    
+}
+#yourguide {
+    font-family: franklin;
+    padding: 0px 50px ;
+    border-bottom: 20px solid black;
+}
+.guide-card {
+    width: 425px;
+    margin: 0px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background: gray;
+    border-bottom: 300px;
+    border-radius: 6px;
+}
+.guideinfo{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 70px
+}
+.guide-img{
+    width: 180px;
+    border-radius: 6px;
+    margin: 25px 15px 25px 0px;
+}
+#Bonus {
+    color: white;
+    background: red; 
+}
+.bonus-banner {
+    font-family: franklin;
+    background-image: linear-gradient;
+    height: 75px;
+}
